@@ -8,4 +8,4 @@ type  (* partial *)Default() =
         inherit System.Web.UI.Page()
         abstract button1Clicked : obj * EventArgs -> unit
         default this.button1Clicked  (sender:obj, args:EventArgs) =
-            button1.Text <- "You clicked me"
+            button1.Text <- "Click Me"
